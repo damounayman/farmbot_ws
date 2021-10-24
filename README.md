@@ -1,2 +1,2 @@
 # farmbot_ws
-autonomous agricultural robot
+autonomous agricultural robot.
