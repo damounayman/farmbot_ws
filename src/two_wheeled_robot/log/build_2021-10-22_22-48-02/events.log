@@ -1,0 +1,68 @@
+[0.000000] (-) TimerEvent: {}
+[0.001319] (two_wheeled_robot) JobQueued: {'identifier': 'two_wheeled_robot', 'dependencies': OrderedDict()}
+[0.001822] (two_wheeled_robot) JobStarted: {'identifier': 'two_wheeled_robot'}
+[0.015122] (two_wheeled_robot) JobProgress: {'identifier': 'two_wheeled_robot', 'progress': 'cmake'}
+[0.015772] (two_wheeled_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/geekayman/farmbot_ws/src/two_wheeled_robot', '-DCMAKE_INSTALL_PREFIX=/home/geekayman/farmbot_ws/src/two_wheeled_robot/install/two_wheeled_robot'], 'cwd': '/home/geekayman/farmbot_ws/src/two_wheeled_robot/build/two_wheeled_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'geekayman'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/geekayman'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/geekayman/farmbot_ws/src'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1778'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=47f4cce2e9e4ff121d75c8466173282c'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_colcon_cd_root', '/home/geekayman/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/geekayman/farmbot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'geekayman'), ('JOURNAL_STREAM', '9:40397'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'geekayman'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/geekayman/anaconda3/condabin:/home/geekayman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/geekayman-ZenBook-UX333FA-UX333FA:@/tmp/.ICE-unix/1891,unix/geekayman-ZenBook-UX333FA-UX333FA:/tmp/.ICE-unix/1891'), ('INVOCATION_ID', '0cc2f6250a9742148fbe5af4cddb587a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('TILIX_ID', '8a207f66-ada5-4a99-b554-7d73c15114d2'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F6NLB1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '45'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/geekayman/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/geekayman/farmbot_ws/src/two_wheeled_robot/build/two_wheeled_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('CONDA_EXE', '/home/geekayman/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=47f4cce2e9e4ff121d75c8466173282c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.066836] (two_wheeled_robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.099569] (-) TimerEvent: {}
+[0.115916] (two_wheeled_robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.119932] (two_wheeled_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.180614] (two_wheeled_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.181454] (two_wheeled_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199710] (-) TimerEvent: {}
+[0.245759] (two_wheeled_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.258096] (two_wheeled_robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.258498] (two_wheeled_robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.261305] (two_wheeled_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.299812] (-) TimerEvent: {}
+[0.333059] (two_wheeled_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.334131] (two_wheeled_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399905] (-) TimerEvent: {}
+[0.406931] (two_wheeled_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.419245] (two_wheeled_robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.419845] (two_wheeled_robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.421949] (two_wheeled_robot) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.445765] (two_wheeled_robot) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.446002] (two_wheeled_robot) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.500055] (-) TimerEvent: {}
+[0.600318] (-) TimerEvent: {}
+[0.640590] (two_wheeled_robot) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.683444] (two_wheeled_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.691413] (two_wheeled_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.700419] (-) TimerEvent: {}
+[0.756396] (two_wheeled_robot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.775726] (two_wheeled_robot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.800563] (-) TimerEvent: {}
+[0.843419] (two_wheeled_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900259] (two_wheeled_robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.900621] (-) TimerEvent: {}
+[0.901663] (two_wheeled_robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.902491] (two_wheeled_robot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.966730] (two_wheeled_robot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.966993] (two_wheeled_robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000762] (-) TimerEvent: {}
+[1.033468] (two_wheeled_robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.033724] (two_wheeled_robot) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.085354] (two_wheeled_robot) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.085647] (two_wheeled_robot) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.100853] (-) TimerEvent: {}
+[1.147509] (two_wheeled_robot) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.148527] (two_wheeled_robot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.200974] (-) TimerEvent: {}
+[1.301285] (-) TimerEvent: {}
+[1.302383] (two_wheeled_robot) StdoutLine: {'line': b'-- Found rclpy: 1.0.7 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[1.328220] (two_wheeled_robot) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:46 (message):\n'}
+[1.328508] (two_wheeled_robot) StderrLine: {'line': b'  ament_python_install_package() the Python package folder\n'}
+[1.328619] (two_wheeled_robot) StderrLine: {'line': b"  '/home/geekayman/farmbot_ws/src/two_wheeled_robot/two_wheeled_robot'\n"}
+[1.328697] (two_wheeled_robot) StderrLine: {'line': b"  doesn't contain an '__init__.py' file\n"}
+[1.328767] (two_wheeled_robot) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.328820] (two_wheeled_robot) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:28 (_ament_cmake_python_install_package)\n'}
+[1.328872] (two_wheeled_robot) StderrLine: {'line': b'  CMakeLists.txt:36 (ament_python_install_package)\n'}
+[1.328924] (two_wheeled_robot) StderrLine: {'line': b'\n'}
+[1.328975] (two_wheeled_robot) StderrLine: {'line': b'\n'}
+[1.329818] (two_wheeled_robot) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.329925] (two_wheeled_robot) StdoutLine: {'line': b'See also "/home/geekayman/farmbot_ws/src/two_wheeled_robot/build/two_wheeled_robot/CMakeFiles/CMakeOutput.log".\n'}
+[1.329986] (two_wheeled_robot) StdoutLine: {'line': b'See also "/home/geekayman/farmbot_ws/src/two_wheeled_robot/build/two_wheeled_robot/CMakeFiles/CMakeError.log".\n'}
+[1.335838] (two_wheeled_robot) CommandEnded: {'returncode': 1}
+[1.356892] (two_wheeled_robot) JobEnded: {'identifier': 'two_wheeled_robot', 'rc': 1}
+[1.357745] (-) EventReactorShutdown: {}
